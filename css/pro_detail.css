@@ -1,0 +1,30 @@
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.smaill-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.sproduct select{
+    display: block;
+    padding: 5px 10px;
+}
+.sproduct input{
+    width: 50px;
+    height: 40px;
+    padding-left:10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.sproduct input:focus{
+    outline: none;   
+}
+.buy-btn{
+    background: var(--frist-color);
+    color: #fff;
+    opacity: 1;
+    transition: all 0.3s ease;
+    padding: 15px 30px;
+    outline: none;
+}
